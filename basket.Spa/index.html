@@ -1,0 +1,67 @@
+<html ng-app="basketAgenda">
+
+<head>
+    <title>Registro de pontos do Basquete</title>
+
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-route.js"></script>
+    <script src="basket-app/app.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+
+    <base href="/">
+</head>
+<style>
+    .headerTitle {
+        width: 50%;
+        float: left;
+        text-align: left;
+        padding: 10px;
+        font-size: 25px;
+    }
+
+    .headerDate {
+        width: 50%;
+        float: left;
+        text-align: right;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .jumbotron {
+        width: 600px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .centerText {
+        text-align: center;
+    }
+
+    .table {
+        margin-top: 20px;
+    }
+
+    .form-control {
+        margin-bottom: 5px;
+    }
+</style>
+
+<body>
+    <div class="jumbotron centerText">
+        <a href="#/addGame">Lançar Pontos</a> |
+        <a href="#/showResults">Ver Resultados</a>
+    </div>
+
+    <main ng-view></main>
+
+</body>
+
+</html>
