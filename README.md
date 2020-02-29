@@ -1,9 +1,9 @@
 # Basket Records
 
-## Aplicação desenvolvida com:
-..* .NetCore 3.1
-..* EntityFrameworkCore
-..* AngularJs
+## Aplicação desenvolvida utilizando
+* .NetCore 3.1
+* EntityFrameworkCore
+* AngularJs
 ---
 ![](/basket.Spa/images/lancar-pontos.png)
 ---
