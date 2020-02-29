@@ -1,3 +1,3 @@
 # basket-records
 
-![](/basket.Spa/lancar-pontos.png)
+![](/basket.Spa/images/lancar-pontos.png)
